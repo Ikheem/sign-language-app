@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="158dp"
+        android:text="Sign language"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="48dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Recognition"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="48dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/camera_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Real-time recognition"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/combine_letter_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Combine Letters"
+        android:textAllCaps="false" />
+
+</LinearLayout>
